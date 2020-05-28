@@ -1,0 +1,7 @@
+<textarea lefMention
+                    [editor]="editor"
+                    [cursorEditor]="cursorEditor"></textarea>
+        <kendo-editor #editor lefMention [editor]="editor"
+                    [cursorEditor]="cursorEditor" [iframe]="false"></kendo-editor>
+        <div #cursorEditor
+               style="width: 2px; height: 1.2em; background: red; position: absolute;"></div>
